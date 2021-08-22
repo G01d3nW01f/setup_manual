@@ -13,3 +13,8 @@ How to Setup the John in BackBox:
   ./configure && make -s clean && make -sj4
   
   ../run/john --test
+
+EX:
+  john ~/workspace/hash_file --wordlist=/usr/share/wordlists/password_dictionary.txt 
+  
+  
